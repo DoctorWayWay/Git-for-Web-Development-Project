@@ -1,0 +1,92 @@
+Link to forked and finished codepen: https://codepen.io/DoctorWayWay/pen/wveGvjj
+
+<!-- Questions to Submit in today's file first-lastname.txt -->
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    Semantic HTML is HTML that provides more meaning to what is going on in the markup.
+    2. What is HTML used for? 
+    HTML is a markup language used for structuring Web pages.
+    3. What is an attribute and where do we put it? 
+    Attributes allow more information to be held within an element. We put an attribute inside the opening tag of a element.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    The <h1> tag stands for header 1, and is essentially the title of a page. It should only be used once per page.
+    5. Name two tags that have required attributes
+    The <img> tag and the <a> tag.
+    6. What do we put in the head of our HTML document? 
+    In the head of an HTML document, we store the metadata we want to provide to the site such as the title, character set, a link to the style sheet we are using, a description, keywords, and other information about the website.
+    7. What is an id? 
+    An id is an attribute that gives an element a unique id.
+    8. What elements can I add an id to? 
+    A id can be applied to any element, inside the opening tag.
+    9. How many times can I use the same id on a page? 
+    You may never use 2 or more of the same id on a page.
+    10. What is a class? 
+    A class does the same thing as a id, but can be used multiple times on different elements.
+    11. What elements can I add a class to? 
+    One can add a class to any element.
+    12. How many times can I use the same class on a page? 
+    One can use a class as many times as one wants. There is no limit.
+    13. How do I get my link to open in a new tab?
+    One would use the target attribute with a value of "_blank".
+    14. What is the alt attribute in the image tag used for? 
+    When an image can't load for some reason, the alt attribute fills the void with whatever text the developer placed in alt attribute.
+    15. How do I reference an id?
+    You refer to an id when you place a "#" at the beginning of a id. 
+    16. What is the difference between a section and a div?
+    A <section> is more semantic than a <div>.
+    17. What is CSS used for? 
+    CSS stands for Cascading Style Sheet, and is used for styling HTML.
+    18. How do we select an element? Example - every h2 on the page
+    You can select an element by either its id, class, or tag. If I wanted to select every h2 on a page and turn the font color red, I would write h2{color: red;} in my style sheet.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Ids are a one time use, but classes can be applied to multiple elements. If I wanted to make a hover effect on all my important buttons on a website, I would make a class for those buttons and style the class inside the style sheet. If I want to make a single image on my front page glow blue and fade in words saying something when a cursor is hovered over it, I would use a id.
+    20. How do we select classes in CSS?
+    One has to place a dot at the beginning of the class name, followed by curly brackets holding properties with values.
+    21. How do we select a p element with a single class of “human””?
+    One would write p.human as the selector.
+    22. What is a parent child selector? When would this be useful? 
+    Parent child selectors are used for specificity. It gives more detail about what is being selected compared to other selectors, which means that it can overwrite values.
+    23. How do you select all links within a div with the class of sidebar?
+    One would write div.sidebar>a followed by curly brackets.
+    24. What is a pseudo selector?
+    They allow one to select elements that are in a certain state, i.e, hover, active, visited, etc.
+    25. What do we use the change the spacing between lines?
+    One would use the line-height property in CSS.
+    26. What do we use to change the spacing between letters?
+    One would use the letter-spacing property in CSS.
+    27. What do we use to change everything to CAPITALS? lowercase? Capitalize?
+    One would use the text-transform property in CSS.
+    28. How do I add a 1px border around my div that is dotted and black?
+    The command would be border: 1px dotted black;.
+    29. How do I select everything on the page? 
+    One would use the * selector.
+    30. How do I write a comment in CSS?
+    One would write a comment by opening it with /* and closing it with */.
+    31. How do I find out what file I am in, when I am using the command line? 
+    One would enter the command pwd(print working directory).
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    One would enter the command ls, and a list of files/folders in one's current directory would be shown.
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    One would enter the command rm followed by the file's name. One must be careful, as there is no warning message to save one from an accidental deletion.
+    34. Why should I use version control? 
+    One should use version control 
+    35. How often should I commit to github?
+    One should commit to github every 20 minutes.
+    36. What is the command we would use to push our repo up to github? 
+    The command is git push.
+    37. Walk me through Lambda's git flow. 
+    First, one must fork the repo provided by Lambda. Then one must clone the forked repo so that he or she can have a local copy of that repo. When cloning the repo, one should be inside of the directory they wish to save this repo to. After cloning the repo, one should enter the cloned directory using the cd command followed by the directory's name, and checkout a new branch using the command git checkout -b firstname-lastname. Once the branch is created, one may enter the branch and make changes to it, saving(with the command git add .) and committing(with the command git commit -m "message goes here") those changes fairly often with descriptive messages explaining to future readers what changes were made. When the person wishes to push his or her changes made to the branch, they will enter the command git push -u firstname-lastname(name of branch). Once the changes have been pushed, one should create a pull request. Once the pull request has been completed, he or she will copy the URL from the pull request page and submit it. Since the repo is public by default, Lambda should be able to see the changes on the pull request page.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+
+
+   -->
