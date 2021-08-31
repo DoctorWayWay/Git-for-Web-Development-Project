@@ -73,11 +73,11 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     34. Why should I use version control? 
     One should use version control 
     35. How often should I commit to github?
-
+    One should commit to github every 20 minutes.
     36. What is the command we would use to push our repo up to github? 
-
+    The command is git push.
     37. Walk me through Lambda's git flow. 
-
+    First, one must fork the repo provided by Lambda. Then one must clone the forked repo so that he or she can have a local copy of that repo. When cloning the repo, one should be inside of the directory they wish to save this repo to. After cloning the repo, one should enter the cloned directory using the cd command followed by the directory's name, and checkout a new branch using the command git checkout -b firstname-lastname. Once the branch is created, one may enter the branch and make changes to it, saving(with the command git add .) and committing(with the command git commit -m "message goes here") those changes fairly often with descriptive messages explaining to future readers what changes were made. When the person wishes to push his or her changes made to the branch, they will enter the command git push -u firstname-lastname(name of branch). Once the changes have been pushed, one should create a pull request. Once the pull request has been completed, he or she will copy the URL from the pull request page and submit it. Since the repo is public by default, Lambda should be able to see the changes on the pull request page.
 
 Stretch Questions
 
